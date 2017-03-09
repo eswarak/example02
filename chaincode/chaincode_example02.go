@@ -71,7 +71,7 @@ func (t *SimpleChaincode) Init(stub *shim.ChaincodeStub, function string, args [
 
 // Transaction makes payment of X units from A to B
 func (t *SimpleChaincode) invoke(stub *shim.ChaincodeStub, args []string) ([]byte, error) {
-	fmt.Printf("Running invoke ...")
+	fmt.Printf("Hmm  Running invoke ...")
 	
 	var A, B string    // Entities
 	var Aval, Bval int // Asset holdings
